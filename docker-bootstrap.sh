@@ -1,3 +1,4 @@
 #!/bin/bash
 
-docker run -p 80:80 -v $(pwd):/var/www/ -d eboraas/apache-php
+docker rm phpepl
+docker run --name=phpepl -p 80:80 -v $(pwd):/var/www/html -d eboraas/apache-php

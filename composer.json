@@ -1,6 +1,7 @@
 {
     "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
-        "fieryprophet/php-sandbox": "dev-master"
+        "corveda/php-sandbox": "^2"
     }
 }
